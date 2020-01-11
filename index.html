@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Post | RRorschach Blog</title>
+    <meta name="description" content="This is a blog example built by VuePress">
+    
+    
+    <link rel="preload" href="/myBlog/assets/css/0.styles.c03cb16d.css" as="style"><link rel="preload" href="/myBlog/assets/js/app.d600fa0c.js" as="script"><link rel="preload" href="/myBlog/assets/js/4.e5421865.js" as="script"><link rel="preload" href="/myBlog/assets/js/10.4219b562.js" as="script"><link rel="preload" href="/myBlog/assets/js/7.738cc099.js" as="script"><link rel="prefetch" href="/myBlog/assets/js/1.ad2e667e.js"><link rel="prefetch" href="/myBlog/assets/js/11.0666fc7a.js"><link rel="prefetch" href="/myBlog/assets/js/12.3a0baabe.js"><link rel="prefetch" href="/myBlog/assets/js/13.3aeb8d34.js"><link rel="prefetch" href="/myBlog/assets/js/14.5f9d7407.js"><link rel="prefetch" href="/myBlog/assets/js/15.1a76e7fb.js"><link rel="prefetch" href="/myBlog/assets/js/16.7b0ec78b.js"><link rel="prefetch" href="/myBlog/assets/js/17.7fb7b132.js"><link rel="prefetch" href="/myBlog/assets/js/18.48b93ba2.js"><link rel="prefetch" href="/myBlog/assets/js/5.76ff38db.js"><link rel="prefetch" href="/myBlog/assets/js/6.9769c1ff.js"><link rel="prefetch" href="/myBlog/assets/js/8.004f37e8.js"><link rel="prefetch" href="/myBlog/assets/js/9.d58d452e.js"><link rel="prefetch" href="/myBlog/assets/js/vuejs-paginate.fcd15b27.js">
+    <link rel="stylesheet" href="/myBlog/assets/css/0.styles.c03cb16d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/myBlog/" class="nav-link home-link router-link-exact-active router-link-active">RRorschach Blog </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/myBlog/" class="nav-link router-link-exact-active router-link-active">文章</a></li><li class="nav-item"><a href="/myBlog/tag/" class="nav-link">分类</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/myBlog/" class="nav-link mobile-home-link router-link-exact-active router-link-active">RRorschach Blog </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/myBlog/" class="nav-link router-link-exact-active router-link-active">文章</a></li><li class="mobile-nav-item"><a href="/myBlog/tag/" class="nav-link">分类</a></li></ul></div></div></div> <div class="content-wrapper"><div><div id="base-list-layout"><div class="ui-posts"><div class="ui-post"><div class="ui-post-title"><a href="/myBlog/2020/01/10/ssh-key/" class="nav-link">如何生成SSH key</a></div> <p class="ui-post-summary">
+        
+
+SSH key提供了一种与GitHub通信的方式，通过这种方式，能够在不输入密码的情况下，将GitHub作为自己的remote端服务器，进行版本控制
+
+1.检查SSH keys是否存在
+
+输入下面的命令，如果有文件idrsa.pub 或 iddsa.pub，则直接进入步骤3将SSH key添加到GitHub中，否则进入第二步生成SSH key
+
+ls -al ~/. ...
+        </p> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>rrorschach in
+          Shanghai</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Fri Jan 10 2020</span></div></div><div class="ui-post"><div class="ui-post-title"><a href="/myBlog/2020/01/09/ssh/" class="nav-link">SSH原理与运用</a></div> <p class="ui-post-summary">
+        
+什么是SSH？
+
+简单说，SSH是一种网络协议，用于计算机之间的加密登录。
+
+如果一个用户从本地计算机，使用SSH协议登录另一台远程计算机，我们就可以认为，这种登录是安全的，即使被中途截获，密码也不会泄露。
+
+最早的时候，互联网通信都是明文通信，一旦被截获，内容就暴露无疑。1995年，芬兰学者Tatu Ylonen设计了SSH协议，将登录信息全部加密，成为互联网安全的一个基本解决方案 ...
+        </p> <div class="ui-post-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span>rrorschach in
+          Shanghai</span></div> <div class="ui-post-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <span>Thu Jan 09 2020</span></div></div></div> <!----></div></div></div> <footer class="footer" data-v-10a1203e><div class="footer-left-wrap" data-v-10a1203e><ul class="contact" data-v-10a1203e><li class="contact-item" data-v-10a1203e><a href="https://github.com/rrorschach" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-10a1203e><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github" data-v-10a1203e><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" data-v-10a1203e></path></svg>
+          
+        </a></li></ul></div> <div class="footer-right-wrap" data-v-10a1203e><ul class="copyright" data-v-10a1203e><li class="copyright-item" data-v-10a1203e><a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-10a1203e>Privacy Policy</a></li><li class="copyright-item" data-v-10a1203e><a href="https://github.com/rrorschach" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-10a1203e>MIT Licensed | Copyright © 2020-present RRorschach</a></li></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/myBlog/assets/js/app.d600fa0c.js" defer></script><script src="/myBlog/assets/js/4.e5421865.js" defer></script><script src="/myBlog/assets/js/10.4219b562.js" defer></script><script src="/myBlog/assets/js/7.738cc099.js" defer></script>
+  </body>
+</html>
